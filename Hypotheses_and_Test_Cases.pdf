@@ -1,0 +1,768 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 8 0 R 10 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/Contents 7 0 R
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+7 0 obj
+<<
+/Length 3015
+>>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Hypotheses and Test Cases) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Retail customer sales  |  Follow-up analysis plan) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(How to use this plan) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(This assignment is an exploratory data analysis. The hypotheses below are questions for a later) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(analysis, not conclusions. Run them after checking date parsing and the cleaning choices. For) Tj
+ET
+BT
+/F1 9.5 Tf
+54 626 Td
+(each result, report the group sizes, effect size, confidence interval, assumptions, exclusions,) Tj
+ET
+BT
+/F1 9.5 Tf
+54 613 Td
+(and adjusted p-values where needed.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 592 Td
+(1. Do average order values differ by region?) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 575 Td
+(Null hypothesis: mean Sales is equal across North, South, East, and West. Alternative: at least) Tj
+ET
+BT
+/F1 9.5 Tf
+54 562 Td
+(one regional mean differs.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 545 Td
+(Suggested test: Welch one-way ANOVA. If the overall result is significant, use Games-Howell) Tj
+ET
+BT
+/F1 9.5 Tf
+54 532 Td
+(comparisons. With strong skew, consider a log scale or bootstrap intervals.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 511 Td
+(2. Does profit margin differ by product category?) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 494 Td
+(Null hypothesis: mean transaction Profit / Sales is equal across categories. Alternative: at) Tj
+ET
+BT
+/F1 9.5 Tf
+54 481 Td
+(least one category differs.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 464 Td
+(Suggested test: Welch one-way ANOVA with Games-Howell comparisons, or bootstrap category) Tj
+ET
+BT
+/F1 9.5 Tf
+54 451 Td
+(differences. Exclude missing and zero Sales; show the resulting sample size.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 430 Td
+(3. Are Corporate and Consumer order values different?) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 413 Td
+(Null hypothesis: the median transaction Sales is the same for Corporate and Consumer customers.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 400 Td
+(Alternative: the medians differ.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 383 Td
+(Suggested test: two-sided Mann-Whitney U. Report group medians and rank-biserial effect size.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 370 Td
+(Consider customer-level resampling because customers may have repeat orders.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 349 Td
+(4. Is discount associated with transaction Sales?) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 332 Td
+(Null hypothesis: Discount and Sales have no monotonic association. Alternative: a monotonic) Tj
+ET
+BT
+/F1 9.5 Tf
+54 319 Td
+(association exists.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 302 Td
+(Suggested test: Spearman correlation with a bootstrap confidence interval. This is an) Tj
+ET
+BT
+/F1 9.5 Tf
+54 289 Td
+(association question, not a causal test; product and quantity may affect both.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 1 of 3) Tj
+ET
+endstream
+endobj
+8 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/Contents 9 0 R
+/Parent 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Length 3281
+>>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Test Plan and Data Checks) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Five follow-up hypotheses  |  Quality audit cases) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(5. Does delivery time vary by delivery mode?) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(Null hypothesis: median Delivery_Days is equal across delivery modes. Alternative: at least one) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(mode differs.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 622 Td
+(Suggested test: Kruskal-Wallis, then Dunn pairwise tests with Holm correction if warranted. Use) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(valid nonnegative durations and show N for each mode.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 588 Td
+(Reporting rules) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 571 Td
+(Use a two-sided 5% significance threshold unless a directional claim was set before looking at) Tj
+ET
+BT
+/F1 9.5 Tf
+54 558 Td
+(results. Correct for multiple pairwise tests. A small p-value does not automatically mean the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 545 Td
+(difference matters to the business. Avoid causal wording for these observational records.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 524 Td
+(Dataset checks to reproduce) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 507 Td
+(Q01. File loads with 7,084 rows and 24 source columns; required columns are present.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 490 Td
+(Q02. Missingness is counted by column against all 7,084 source records. Do not fill missing) Tj
+ET
+BT
+/F1 9.5 Tf
+54 477 Td
+(values without a field-specific reason.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 460 Td
+(Q03. Identify 61 exact duplicate rows. Exclude later copies from default summaries and keep them) Tj
+ET
+BT
+/F1 9.5 Tf
+54 447 Td
+(available for review.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 430 Td
+(Q04. Standardize known Gender aliases \(M/F and casing\) and Region aliases \(Nort, Sth, casing\).) Tj
+ET
+BT
+/F1 9.5 Tf
+54 417 Td
+(Review any remaining labels instead of silently dropping them.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 400 Td
+(Q05. Count non-ISO date strings separately from missing or unparseable dates: 483 Order_Date and) Tj
+ET
+BT
+/F1 9.5 Tf
+54 387 Td
+(469 Delivery_Date entries use another format.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 370 Td
+(Q06. Flag 55 delivery dates earlier than order dates. Do not calculate a negative delivery) Tj
+ET
+BT
+/F1 9.5 Tf
+54 357 Td
+(duration.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 340 Td
+(Q07. Flag 6 ages outside 0 to 120 and 6 discounts outside 0 to 0.5. Check rating against its 1) Tj
+ET
+BT
+/F1 9.5 Tf
+54 327 Td
+(to 5 range.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 310 Td
+(Q08. Apply 1.5 x IQR fences to Sales, Profit, Age, and Income. Count flags, keep observations,) Tj
+ET
+BT
+/F1 9.5 Tf
+54 297 Td
+(and review before classifying an extreme as an error.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 280 Td
+(Q09. Compute N, mean, median, mode, sample standard deviation and variance, quartiles, IQR,) Tj
+ET
+BT
+/F1 9.5 Tf
+54 267 Td
+(percentiles, and skew for the eight required numeric fields.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 250 Td
+(Q10. Region, Product_Category, and Customer_Segment frequency proportions sum to 100%, aside) Tj
+ET
+BT
+/F1 9.5 Tf
+54 237 Td
+(from rounding.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 2 of 3) Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/Contents 12 0 R
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 2837
+>>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Checks and Interpretation) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Feature logic, reproducibility, and limits) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(Remaining implementation checks) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(Q11. Profit_Margin is Profit / Sales; zero Sales produces a missing margin. Delivery_Days is the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(date difference in days; invalid chronology produces a missing duration. Customer_Revenue_Total) Tj
+ET
+BT
+/F1 9.5 Tf
+54 626 Td
+(is customer-level summed Sales.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(Q12. Grouped questions show group sizes with regional order values, category margins, sales by) Tj
+ET
+BT
+/F1 9.5 Tf
+54 596 Td
+(segment, average order value by payment method, return rates, and delivery duration.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 579 Td
+(Q13. Downloaded cleaned, filtered, audit, and duplicate CSVs open with headers and UTF-8) Tj
+ET
+BT
+/F1 9.5 Tf
+54 566 Td
+(encoding.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 549 Td
+(Q14. Region and date filters update the totals, chart, tables, and grouped results. The) Tj
+ET
+BT
+/F1 9.5 Tf
+54 536 Td
+(duplicate toggle controls whether duplicate copies appear in views.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 519 Td
+(Q15. The same CSV and filter selections reproduce the same descriptive results. The interactive) Tj
+ET
+BT
+/F1 9.5 Tf
+54 506 Td
+(app does not run hypothesis tests automatically.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 485 Td
+(Decisions for the supplied file) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 468 Td
+(Keep missing age, income, discount, rating, and satisfaction values missing. Remove later exact) Tj
+ET
+BT
+/F1 9.5 Tf
+54 455 Td
+(duplicate rows only from the default cleaned export. Flag and mask invalid bounded values in the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 442 Td
+(analysis copy, while preserving the original CSV. Keep IQR outliers for review because extreme) Tj
+ET
+BT
+/F1 9.5 Tf
+54 429 Td
+(orders or incomes may be real.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 412 Td
+(Mixed slash dates can be ambiguous. The app uses month-first parsing for ambiguous entries;) Tj
+ET
+BT
+/F1 9.5 Tf
+54 399 Td
+(verify these dates with the source system before making delivery-performance decisions.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 378 Td
+(Limits) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 361 Td
+(This dataset is synthetic and observational. Repeat transactions from the same customer are not) Tj
+ET
+BT
+/F1 9.5 Tf
+54 348 Td
+(independent, and preprocessing choices can affect the result. Treat these tests as follow-up) Tj
+ET
+BT
+/F1 9.5 Tf
+54 335 Td
+(questions; state results only after running the analysis on the cleaned data.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 3 of 3) Tj
+ET
+endstream
+endobj
+12 0 obj
+<<
+/Length 2835
+>>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Checks and Interpretation) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Feature logic, reproducibility, and limits) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(Remaining implementation checks) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(Q11. Profit_Margin is Profit / Sales; zero Sales produces a missing margin. Delivery_Days is the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(date difference in days; invalid chronology produces a missing duration. Revenue_per_Customer) Tj
+ET
+BT
+/F1 9.5 Tf
+54 626 Td
+(is customer-level summed Sales.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(Q12. Grouped questions show group sizes with regional order values, category margins, sales by) Tj
+ET
+BT
+/F1 9.5 Tf
+54 596 Td
+(segment, average order value by payment method, return rates, and delivery duration.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 579 Td
+(Q13. Downloaded cleaned, filtered, audit, and duplicate CSVs open with headers and UTF-8) Tj
+ET
+BT
+/F1 9.5 Tf
+54 566 Td
+(encoding.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 549 Td
+(Q14. Region and date filters update the totals, chart, tables, and grouped results. The) Tj
+ET
+BT
+/F1 9.5 Tf
+54 536 Td
+(duplicate toggle controls whether duplicate copies appear in views.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 519 Td
+(Q15. The same CSV and filter selections reproduce the same descriptive results. The interactive) Tj
+ET
+BT
+/F1 9.5 Tf
+54 506 Td
+(app does not run hypothesis tests automatically.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 485 Td
+(Decisions for the supplied file) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 468 Td
+(Keep missing age, income, discount, rating, and satisfaction values missing. Remove later exact) Tj
+ET
+BT
+/F1 9.5 Tf
+54 455 Td
+(duplicate rows only from the default cleaned export. Flag and mask invalid bounded values in the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 442 Td
+(analysis copy, while preserving the original CSV. Keep IQR outliers for review because extreme) Tj
+ET
+BT
+/F1 9.5 Tf
+54 429 Td
+(orders or incomes may be real.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 412 Td
+(Mixed slash dates can be ambiguous. The app uses month-first parsing for ambiguous entries;) Tj
+ET
+BT
+/F1 9.5 Tf
+54 399 Td
+(verify these dates with the source system before making delivery-performance decisions.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 378 Td
+(Limits) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 361 Td
+(This dataset is synthetic and observational. Repeat transactions from the same customer are not) Tj
+ET
+BT
+/F1 9.5 Tf
+54 348 Td
+(independent, and preprocessing choices can affect the result. Treat these tests as follow-up) Tj
+ET
+BT
+/F1 9.5 Tf
+54 335 Td
+(questions; state results only after running the analysis on the cleaned data.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 3 of 3) Tj
+ET
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000126 00000 n 
+0000000175 00000 n 
+0000000313 00000 n 
+0000000383 00000 n 
+0000000458 00000 n 
+0000003525 00000 n 
+0000003663 00000 n 
+0000006996 00000 n 
+0000007136 00000 n 
+0000010026 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+12914
+%%EOF

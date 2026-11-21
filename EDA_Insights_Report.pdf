@@ -1,0 +1,632 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3112 >>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Retail Sales EDA: Key Findings) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Exploratory analysis of the supplied 2023-2024 transaction file) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(What the data says) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(The source file contains 7,084 transactions across 24 columns. After removing 61 exact repeated) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(rows, 7,023 records remain for the summaries below. The order dates run from January 2023) Tj
+ET
+BT
+/F1 9.5 Tf
+54 626 Td
+(through December 2024.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(The main pattern is a long right tail: most orders and customer incomes sit well below their) Tj
+ET
+BT
+/F1 9.5 Tf
+54 596 Td
+(averages, while a small number of very large values pull the averages up. Those records deserve) Tj
+ET
+BT
+/F1 9.5 Tf
+54 583 Td
+(review, but the data alone does not show they are mistakes.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 562 Td
+(Five findings for a business reader) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 545 Td
+(1. A typical order is much smaller than the average. Sales median is INR 4,834, compared with a) Tj
+ET
+BT
+/F1 9.5 Tf
+54 532 Td
+(mean of INR 10,958. Sales skew is 2.40; the large gap means a few high-value orders have a) Tj
+ET
+BT
+/F1 9.5 Tf
+54 519 Td
+(strong effect on the average.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 502 Td
+(2. Customer income is also strongly right-skewed. Median income is INR 49,025 and the mean is) Tj
+ET
+BT
+/F1 9.5 Tf
+54 489 Td
+(INR 55,094. The maximum is INR 1,750,890; check whether this represents a real high-income) Tj
+ET
+BT
+/F1 9.5 Tf
+54 476 Td
+(customer before using averages for targeting.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 459 Td
+(3. Ages look more concentrated. After removing 6 impossible ages from the analysis field, median) Tj
+ET
+BT
+/F1 9.5 Tf
+54 446 Td
+(age is 36 and the mean is 36.1. The age distribution has modest positive skew \(0.27\).) Tj
+ET
+BT
+/F1 9.5 Tf
+54 429 Td
+(4. The East region has the highest mean order value in this file: INR 16,750 across 20 orders.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 416 Td
+(South is lowest at INR 6,688. This is a descriptive difference; product and customer mix may) Tj
+ET
+BT
+/F1 9.5 Tf
+54 403 Td
+(explain it.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 386 Td
+(5. Category margins are close together. Clothing is lowest at 32.4%; Electronics is highest at) Tj
+ET
+BT
+/F1 9.5 Tf
+54 373 Td
+(32.8%. The gap is only 0.42 percentage points, so category margin alone is not a strong basis) Tj
+ET
+BT
+/F1 9.5 Tf
+54 360 Td
+(for a major change.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 339 Td
+(How to read these results) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 322 Td
+(These are summaries, not tests of cause or statistical significance. The accompanying test plan) Tj
+ET
+BT
+/F1 9.5 Tf
+54 309 Td
+(lists follow-up hypotheses and checks. The results below use the conservative cleaning decisions) Tj
+ET
+BT
+/F1 9.5 Tf
+54 296 Td
+(described on page 3.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 1 of 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4372 >>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Sales Patterns and Data Quality) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(Group comparisons and the checks that affect interpretation) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(Grouped results) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(Consumer customers account for the most recorded sales: INR 41,901,848 across 3,859 orders.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(Corporate orders have a slightly higher average value \(INR 11,143\) than Consumer orders \(INR) Tj
+ET
+BT
+/F1 9.5 Tf
+54 626 Td
+(10,858\), but the difference is modest.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(Clothing has the highest return rate at 13.5% \(1,539 orders\). Office Supplies is lowest at) Tj
+ET
+BT
+/F1 9.5 Tf
+54 596 Td
+(11.5%. This suggests Clothing returns may merit a product-level look; the category rate alone) Tj
+ET
+BT
+/F1 9.5 Tf
+54 583 Td
+(does not explain why products were returned.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 566 Td
+(Same-Day delivery averages 6.5 days in the parsed data, while Standard averages 6.5 days. The) Tj
+ET
+BT
+/F1 9.5 Tf
+54 553 Td
+(label and dates do not always align with an intuitive delivery promise, so validate the date) Tj
+ET
+BT
+/F1 9.5 Tf
+54 540 Td
+(conventions before comparing service performance.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 519 Td
+(Data quality found) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 502 Td
+(Missing values are concentrated in Customer_Rating \(428\), Income \(253\), Satisfaction_Level) Tj
+ET
+BT
+/F1 9.5 Tf
+54 489 Td
+(\(179\), Age \(142\), Delivery_Date \(106\), and Discount \(71\). These values were left blank rather) Tj
+ET
+BT
+/F1 9.5 Tf
+54 476 Td
+(than filled with typical values.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 459 Td
+(Date strings use mixed formats: 483 order dates and 469 delivery dates are not ISO formatted. In) Tj
+ET
+BT
+/F1 9.5 Tf
+54 446 Td
+(55 rows, delivery precedes order after parsing. Ambiguous slash dates need confirmation against) Tj
+ET
+BT
+/F1 9.5 Tf
+54 433 Td
+(the source system.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 416 Td
+(6 age values fall outside 0 to 120 and 6 discount values fall outside 0 to 0.5. They are flagged) Tj
+ET
+BT
+/F1 9.5 Tf
+54 403 Td
+(and masked for analysis. The rest of the valid numeric ranges contain no negative Sales, Cost,) Tj
+ET
+BT
+/F1 9.5 Tf
+54 390 Td
+(or Unit_Price values.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 369 Td
+(Outlier review) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 352 Td
+(The 1.5 x IQR screen flags 633 Sales values, 640 Profit values, 227 Income values, and 11 valid) Tj
+ET
+BT
+/F1 9.5 Tf
+54 339 Td
+(ages. An IQR flag means unusual relative to the middle half; it is not evidence of a data-entry) Tj
+ET
+BT
+/F1 9.5 Tf
+54 326 Td
+(error.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 309 Td
+(Sales and Income are especially right-skewed. Use medians alongside means, and inspect flagged) Tj
+ET
+BT
+/F1 9.5 Tf
+54 296 Td
+(records against transaction details before removing anything.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 275 Td
+(Regional mean order value) Tj
+ET
+0 0 0 rg
+BT
+/F1 9 Tf
+54 258 Td
+(Region        Orders        Mean Sales        Total Sales) Tj
+ET
+BT
+/F1 9 Tf
+54 244 Td
+(Sth              20        INR     16,750      INR      334,997) Tj
+ET
+BT
+/F1 9 Tf
+54 230 Td
+(WEST             19        INR     15,735      INR      298,958) Tj
+ET
+BT
+/F1 9 Tf
+54 216 Td
+(NORTH            13        INR     13,461      INR      174,996) Tj
+ET
+BT
+/F1 9 Tf
+54 202 Td
+(East          1,740        INR     11,401      INR   19,838,387) Tj
+ET
+BT
+/F1 9 Tf
+54 188 Td
+(West          1,769        INR     10,957      INR   19,383,217) Tj
+ET
+BT
+/F1 9 Tf
+54 174 Td
+(North         1,631        INR     10,810      INR   17,631,292) Tj
+ET
+BT
+/F1 9 Tf
+54 160 Td
+(South         1,724        INR     10,669      INR   18,394,142) Tj
+ET
+BT
+/F1 9 Tf
+54 146 Td
+(south            24        INR     10,433      INR      250,395) Tj
+ET
+BT
+/F1 9 Tf
+54 132 Td
+(Nort             17        INR      9,204      INR      156,460) Tj
+ET
+BT
+/F1 9 Tf
+54 118 Td
+(west             15        INR      9,157      INR      137,355) Tj
+ET
+BT
+/F1 9 Tf
+54 104 Td
+(north            21        INR      7,538      INR      158,303) Tj
+ET
+BT
+/F1 9 Tf
+54 90 Td
+(east             30        INR      6,688      INR      200,643) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 2 of 3) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3373 >>
+stream
+0.13 0.23 0.34 rg
+BT
+/F2 8 Tf
+54 760 Td
+(DATA ANALYST TRAINING  |  PROJECT 1) Tj
+ET
+0.2 0.35 0.48 RG
+0.7 w
+54 748 m 558 748 l S
+0 0 0 rg
+BT
+/F2 21 Tf
+54 724 Td
+(Cleaning Decisions and Next Steps) Tj
+ET
+0.32 0.36 0.4 rg
+BT
+/F1 10 Tf
+54 697 Td
+(A record of what changed and what should be checked) Tj
+ET
+0 0 0 rg
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 669 Td
+(Cleaning choices) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 652 Td
+(Exact full-row duplicates: 61 later copies were flagged. The default cleaned dataset excludes) Tj
+ET
+BT
+/F1 9.5 Tf
+54 639 Td
+(them; the original CSV and duplicate download remain available for comparison.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 622 Td
+(Gender and Region labels are standardized using explicit aliases. Known variants such as M/F,) Tj
+ET
+BT
+/F1 9.5 Tf
+54 609 Td
+(Nort, and Sth are mapped to a consistent label. Other labels are retained in title case so) Tj
+ET
+BT
+/F1 9.5 Tf
+54 596 Td
+(unfamiliar values can still be reviewed.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 579 Td
+(Order_Date and Delivery_Date are parsed to dates. Non-ISO strings are counted separately.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 566 Td
+(Missing and unparseable values remain blank. Delivery-before-order rows are flagged and excluded) Tj
+ET
+BT
+/F1 9.5 Tf
+54 553 Td
+(from Delivery_Days.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 536 Td
+(Missing values are not imputed. Age, Income, Discount, Customer_Rating, and Satisfaction_Level) Tj
+ET
+BT
+/F1 9.5 Tf
+54 523 Td
+(can be useful for different summaries; filling them with a median or mode would make up customer) Tj
+ET
+BT
+/F1 9.5 Tf
+54 510 Td
+(details.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 493 Td
+(Impossible ages and discounts are flagged and set to missing in the analysis copy \(6 and 6 rows) Tj
+ET
+BT
+/F1 9.5 Tf
+54 480 Td
+(respectively\). IQR outliers are kept because a high-value purchase or income can be genuine.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 459 Td
+(Calculated fields) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 442 Td
+(Profit_Margin = Profit / Sales. Delivery_Days = Delivery_Date minus Order_Date in whole days.) Tj
+ET
+BT
+/F1 9.5 Tf
+54 429 Td
+(Revenue_per_Customer is the sum of Sales for each Customer_ID across the loaded file. These) Tj
+ET
+BT
+/F1 9.5 Tf
+54 416 Td
+(fields support the grouped comparisons in the app.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 395 Td
+(Practical follow-up) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 378 Td
+(Review the high Sales and Income records against transaction or customer details. Confirm) Tj
+ET
+BT
+/F1 9.5 Tf
+54 365 Td
+(ambiguous slash dates before making delivery decisions. Compare Clothing return reasons by) Tj
+ET
+BT
+/F1 9.5 Tf
+54 352 Td
+(product and region. If regional differences will influence budgets, run the tests in the) Tj
+ET
+BT
+/F1 9.5 Tf
+54 339 Td
+(hypothesis plan and report confidence intervals with the group sizes.) Tj
+ET
+0.13 0.23 0.34 rg
+BT
+/F2 12 Tf
+54 318 Td
+(Limits) Tj
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+54 301 Td
+(The file is simulated and observational. Customers can have repeated orders, so transaction-) Tj
+ET
+BT
+/F1 9.5 Tf
+54 288 Td
+(level comparisons may overstate how much independent evidence the dataset contains. No cause-) Tj
+ET
+BT
+/F1 9.5 Tf
+54 275 Td
+(and-effect claims are made. This report describes this file after the stated cleaning steps;) Tj
+ET
+BT
+/F1 9.5 Tf
+54 262 Td
+(different date assumptions can change delivery summaries.) Tj
+ET
+0.45 0.48 0.5 rg
+BT
+/F1 8 Tf
+54 32 Td
+(Retail Customer Sales EDA  |  Page 3 of 3) Tj
+ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
+0000003578 00000 n 
+0000003714 00000 n 
+0000008138 00000 n 
+0000008275 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+11701
+%%EOF
